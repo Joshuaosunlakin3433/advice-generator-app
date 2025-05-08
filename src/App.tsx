@@ -20,7 +20,7 @@ const App = () => {
   fetchAdvice();
 
   return (
-    <main className="bg-[#222732] h-screen w-screen flex items-center justify-center">
+    <main className="bg-[#222732] h-screen w-screen flex items-center justify-center overflow-y-clip">
       <div className="relative bg-[#323a49] h-60 w-96 flex flex-col items-center justify-center px-3 gap-5 rounded-lg pb-3 mx-4 md:mx-0">
         <p className="text-[#52ffaa] uppercase font-semibold tracking-widest font-primary text-sm">Advice #{id}</p>
         <q className="text-center text-[hsl(193,38%,86%)] font-primary text-lg pb-3">{advice}</q>
