@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <main className="bg-[#222732] h-screen w-screen flex items-center justify-center">
-      <div className="relative bg-[#323a49] h-60 w-96 flex flex-col items-center justify-center px-3 gap-5 rounded-lg pb-3">
+      <div className="relative bg-[#323a49] h-60 w-96 flex flex-col items-center justify-center px-3 gap-5 rounded-lg pb-3 mx-2">
         <p className="text-[#52ffaa] uppercase font-semibold tracking-widest font-primary text-sm">Advice #{id}</p>
         <q className="text-center text-[hsl(193,38%,86%)] font-primary text-lg pb-3">{advice}</q>
 
