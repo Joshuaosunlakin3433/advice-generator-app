@@ -1,10 +1,9 @@
 import { TiMediaPause } from "react-icons/ti";
 import { LuDices } from "react-icons/lu";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 const App = () => {
   const [advice, setAdvice] = useState<string>("");
-  const [loading, setLoading] = useState<boolean>(false);
   const [id, setId] = useState<number>(0);
 
   const fetchAdvice = async () => {
